@@ -72,7 +72,7 @@ trap ctrl_c INT
 ctrl_c() {
 echo -e "$red(Ctrl + C ) Has Been Detect!! "
 echo -e "$greenOk Sampai Jumpa"
-figlet -f digital " 	We Party InYour System:)"
+figlet -f digital " 	We Party InYour System"
 sleep 1
 exit
 } 
@@ -81,6 +81,7 @@ read -p "Silahkan Pilih :" gg
 if [ $gg = 1 ] || [ $gg = 1 ]
 then
 clear
+cd /data/data/com.termux/files/home
 pkg update -y
 pkg install wget -y
 wget https://Auxilus.github.io/metasploit.sh
@@ -99,6 +100,7 @@ fi
 if [ $gg = 2 ] || [ $gg = 2 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install axel -y
 axel https://github.com/Hax4us/Tmux-Bunch/releases/download/2.4/Tmux-Bunch-2.4.tar.gz
@@ -115,6 +117,7 @@ fi
 if [ $gg = 3 ] || [ $gg = 3 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install wget -y
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
@@ -129,6 +132,7 @@ fi
 if [ $gg = 4 ] || [ $gg = 4 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install python2 -y
 pip2 install shodan
@@ -139,6 +143,7 @@ fi
 if [ $gg = 5 ] || [ $gg = 5 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install python2 -y
 pkg install git -y
@@ -154,6 +159,7 @@ fi
 if [ $gg = 6 ] || [ $gg = 6 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git
 git clone https://github.com/thelinuxchoice/blackeye
@@ -169,6 +175,7 @@ fi
 if [ $gg = 7 ] || [ $gg = 7 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python -y
@@ -191,6 +198,7 @@ fi
 if [ $gg = 8 ] || [ $gg = 8 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git hydra -y
 pkg install git -y
@@ -209,6 +217,7 @@ fi
 if [ $gg = 9 ] || [ $gg = 9 ]
 then
 clear
+cd $HOME
 apt update && apt upgrade -y
 apt install git python2 -y
 git clone https://github.com/Mebus/cupp
@@ -223,6 +232,7 @@ fi
 if [ $gg = 10 ] || [ $gg = 10 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install python2  -y
 pkg install git -y
@@ -239,6 +249,7 @@ fi
 if [ $gg = 11 ] || [ $gg = 11 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -256,6 +267,7 @@ fi
 if [ $gg = 12 ] || [ $gg = 12 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -272,6 +284,7 @@ fi
 if [ $gg = 13 ] || [ $gg = 13 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python -y
@@ -287,6 +300,7 @@ fi
 if [ $gg = 14 ] || [ $gg = 14 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install ruby -y
@@ -305,6 +319,7 @@ fi
 if [ $gg = 15 ] || [ $gg = 15 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install nano  -y
@@ -322,6 +337,7 @@ fi
 if [ $gg = 16 ] || [ $gg = 16 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -338,6 +354,7 @@ fi
 if [ $gg = 17 ] || [ $gg = 17 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -359,6 +376,7 @@ fi
 if [ $gg = 18 ] || [ $gg = 18 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -374,6 +392,7 @@ fi
 if [ $gg = 19 ] || [ $gg = 19 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -389,6 +408,7 @@ fi
 if [ $gg = 20 ] || [ $gg = 20 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 apt-get install lynx -y
@@ -405,6 +425,7 @@ fi
 if [ $gg = 21 ] || [ $gg = 21 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install python2 -y
@@ -420,6 +441,7 @@ fi
 if [ $gg = 22 ] || [ $gg = 22 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 git clone https://github.com/Moham3dRiahi/XAttacker.git
@@ -435,6 +457,7 @@ fi
 if [ $gg = 23 ] || [ $gg = 23 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 pkg install php -y
@@ -451,6 +474,7 @@ fi
 if [ $gg = 24 ] || [ $gg = 24 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install git -y
 git clone https://github.com/Hax4us/java
@@ -467,6 +491,7 @@ fi
 if [ $gg = 25 ] || [ $gg = 25 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install wget -y && /data/data/com.termux/files/usr/bin/wget https://raw.githubusercontent.com/nmilosev/termux-fedora/master/termux-fedora.sh
 sh termux-fedora.sh f28_arm64
@@ -480,6 +505,7 @@ fi
 if [ $gg = 26 ] || [ $gg = 26 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install curl -y
 curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter
@@ -495,6 +521,7 @@ fi
 if  [ $gg = 27 ] || [ $gg = 27 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install wget -y
 hash -r
@@ -508,6 +535,7 @@ fi
 if  [ $gg = 28 ] || [ $gg = 28 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install wget -y
 pkg install wget proot -y
@@ -525,6 +553,7 @@ fi
 if [ $gg = 29 ] || [ $gg = 29 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install curl -y
 curl -LO https://raw.githubusercontent.com/Techzindia/Kali-linux_For_Termux/master/Kali-linux-Termux
@@ -539,6 +568,7 @@ fi
 if [ $gg = 30 ] || [ $gg = 30 ]
 then
 clear
+cd $HOME
 pkg update -y
 pkg install wget -y
 wget https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh
@@ -556,4 +586,5 @@ fi
 if [ $gg = 00 ] || [ $gg = 00 ]
 then
 echo " OKE BYE :* "
+exit
 fi
